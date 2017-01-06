@@ -136,6 +136,19 @@ npm install hexo-generator-sitemap --save
 
 *依然要配置 根目录下 `_config.yml` 的 `sitemap` 属性*
 
+# 安装已有Hexo博客
+
+> 这个有一些坑
+
+* 下载源代码
+
+```
+git clone https://github.com/flashblogs/backupBlogs blogs
+```
+
+
+
+
 
 # 参考链接
 
