@@ -64,9 +64,11 @@ hexo s
 ```
 git clone https://github.com/wuchong/jacman.git themes/jacman
 ```
-*下载完主题，如果要启用该主题，需要修改 项目 目录下的 ``_config.yml`` 文件中的 ``theme`` 属性值，对应上面 就是 ``jacman``*
+*下载完主题，如果要启用该主题，需要修改 项目 目录下的 ``_config.yml`` 文件中的 ``themes`` 属性值，对应上面 就是 ``jacman``*
 
 * 更新主题
+
+> 1.在已有主题git下面直接 `pull` 最新版本  2. `clone` 最新版本主题，然后再 `copy` 到 `themes\jacman` 
 
 ```
 cd themes/jacman
@@ -145,6 +147,19 @@ npm install hexo-generator-sitemap --save
 ```
 git clone https://github.com/flashblogs/backupBlogs blogs
 ```
+* 安装Hexo
+
+```
+npm install hexo-cli -g
+```
+
+* 安装Hexo依赖、插件
+
+```
+npm install
+```
+
+*当我尝试直接用 `npm install hexo -save` 的时候，好像某一些依赖并不能安装上，导致后面使用 `hexo g` 生成项目的时候，不能静态化 `.html`*
 
 
 
