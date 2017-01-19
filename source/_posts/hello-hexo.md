@@ -6,7 +6,7 @@ description: 记录生活点滴，成长之路
 date: 2017-01-05 17:03:44
 tags:
     - Hexo
-categories:
+categories: 编程
 ---
 
 ![hexo与github更配哦](/assets/blog/img/hexo.png)
